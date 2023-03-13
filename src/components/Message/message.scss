@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+
+.message {
+  display: flex;
+  box-sizing: border-box;
+  margin-left: 24px;
+  margin-bottom: 10px;
+  text-align: left;
+  float: left;
+  line-height: 20px;
+
+  .messageContent {
+    padding-left: 8px;
+    box-sizing: border-box;
+
+    .name {
+      text-align: left;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 20px;
+      padding-bottom: 4px;
+    }
+
+    .messageText {
+      box-sizing: border-box;
+      background: rgba(64, 126, 201, 0.16);
+      text-align: left;
+      padding: 8px 12px;
+      border-radius: 4px;
+      max-width: 50%;
+      line-height: 20px;
+      float: left;
+
+      .messageInfo {
+        float: right;
+        margin-top: 12px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+
+        .messageTime {
+          font-weight: 400;
+          font-size: 12px;
+          white-space: nowrap;
+          line-height: 9px;
+        }
+      }
+    }
+  }
+}
+
+.userMessage {
+  box-sizing: border-box;
+  text-align: left;
+  background: rgba(64, 126, 201, 0.16);
+  padding: 8px 12px 0 12px;
+  border-radius: 4px;
+  max-width: 50%;
+  float: right;
+  line-height: 20px;
+  margin-right: 24px;
+  margin-bottom: 10px;
+
+  .messageInfoUser {
+    float: right;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+    .messageTime {
+      font-weight: 400;
+      font-size: 12px;
+      white-space: nowrap;
+      line-height: 9px;
+    }
+  }
+}
+
+

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+.footer {
+  padding: 16px 24px;
+
+  .inputText {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #A19F9D;
+    border-radius: 4px;
+    padding: 10px 16px;
+  }
+
+  .footerButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .fileUpload {
+      cursor: pointer;
+      padding-top: 4px;
+    }
+
+    .sendButton {
+      width: 20px;
+      height: 20px;
+      background: url("http://localhost:3000/send-message.png") no-repeat;
+      background-size: 20px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
